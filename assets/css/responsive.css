@@ -1,0 +1,88 @@
+
+/*MOBILE < 740px*/
+@media only screen and (max-width: 46.1875em)
+{
+    .footer{
+        padding-top: 300%;
+    }
+    .news__list--item{
+        flex-direction: column;
+    }
+    .news__img{
+        width: 100%;
+    }
+}
+/* 740px <= TABLET < 1024px  */
+@media only screen and (min-width :46.25em) and (max-width: 63.9375em)
+{
+
+}
+
+/*MOBILE AND TABLET*/
+@media only screen and (max-width:63.9375em)
+{
+
+    .btn{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    header{
+        padding-top: 90%;
+    }
+    footer{
+        padding-top: 110%;
+    }
+    .title__dcr {
+        flex-direction: column;
+    }
+    .title__dcr--mess {
+        font-size: 2rem;
+    }
+    .content__text{
+        padding: 70px 0;
+    }
+    .content__picture{
+        margin-bottom: 20px;
+    }
+    .content__picture--price{
+        font-size: 3rem;
+        padding: 20px 40;
+    }
+
+    .ser__item{
+        margin-bottom: 40px;
+    }
+    .des__item{
+    margin-bottom: 40px;
+    }
+    .ser__mess,.title__dcr--mess,
+    .title--small,.des__intro--dcr,
+    .news__title--mess,.footer--mess,
+    .footer__item--title,.footer__sup--list{
+        font-size: 2.4rem;
+    }
+    .des__city,.des__area,.des__cul--dcr,.des__cul--func--name{
+        font-size: 2.6rem;
+    }
+
+}
+
+@media only screen and (max-width:85.375em)
+{
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .nav__list--icon{
+        display: block;
+    }
+    .btn--pri{
+        display: none;
+    }
+}

@@ -1,0 +1,117 @@
+/*RESET CSS*/
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+html{
+    font-family:'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+/*GENERAL*/
+:root{
+    --white-color:white;
+    --black-color:black;
+    --pri-color:#f3a46b;
+    --text-color:#5f6061;
+    --text-color-small:#9a9a9a;
+}
+
+.btn{
+    border-style: none;
+    border-radius: 38px;
+    font-size: 1.6rem;
+    padding: 8px 20px;
+    color: var(--white-color);
+    background-color:var(--pri-color);
+    position: relative;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.status{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 4px 6px;
+    color: var(--white-color);
+
+}
+.ser__empty--space{
+    height: 30px;
+}
+.text--white{
+    color: var(--white-color) !important;
+}
+.hot{
+    background-color: #f76570;
+}
+.new{
+    background-color: rgb(50, 199, 50);
+}
+.best{
+    background-color: rgb(98, 162, 223);
+}
+
+.text--1{
+    color: #1bbc9b;
+}
+.text--3{
+    color: #14b9d5;
+}
+.ser__color--0{
+    background-color: var(--white-color) !important;
+}
+.ser__color--1{
+    background-color: #1bbc9b;
+}
+.ser__color--2{
+    background-color: #ff6868;
+}
+.ser__color--3{
+    background-color: #14b9d5;
+}
+.ser__color--4{
+    background-color: #c755da;
+}
+.ser__color--5{
+    background-color: #f3a46b;
+}
+.ser__color--6{
+    background-color: #ff6868;
+}
+.ser__color--7{
+    background-color: #ffd205;
+}
+
+/*Animation*/
+
+@keyframes up{
+    /* from{
+        transform: translateY(0);
+    } */
+    from{
+        transform: translateY(-5px);
+    }
+    to{
+        transform: translateY(5px);
+        transform:translateX(5px)
+    }
+}
+
+@keyframes down{
+    from{
+        
+    }
+    to{
+        transform: translateY((100));
+    }
+}
