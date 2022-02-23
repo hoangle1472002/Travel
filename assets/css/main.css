@@ -6,6 +6,8 @@ header{
     width: 100%;
     padding-top: 65%;
     position: relative;
+    background-size: cover;
+
 }
 .nav{
     position: absolute;

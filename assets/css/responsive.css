@@ -2,6 +2,25 @@
 /*MOBILE < 740px*/
 @media only screen and (max-width: 46.1875em)
 {
+    header{
+        height : 500px;
+        background-position: center center   ;
+        background-size: cover;
+    }
+    .banner{
+        display : none;
+    }
+    .content__text col{
+        padding : 50px 10px;
+    }
+
+    .ser__mess,.title__dcr--mess,
+    .title--small,.des__intro--dcr,
+    .news__title--mess,.footer--mess,
+    .footer__item--title,.footer__sup--list{
+        font-size : 1.4rem;
+    }
+
     .footer{
         padding-top: 300%;
     }
@@ -11,22 +30,37 @@
     .news__img{
         width: 100%;
     }
+    .title__dcr{
+        flex-direction: column;
+    }
+    .title__dcr--mess{
+        line-height: 2.6rem;
+    }
+    .ser__item{
+        margin : 10px 30px 15px 30px;
+    }
+    .des__sidebar{
+        width : 80%;
+        margin: 0 auto 20px;
+    }
+    .des__item,.news__list--item{
+        width : 80%;
+        margin: 0 auto 20px auto;
+    }
+    footer{
+        height : 1000px;
+    }
+   
+    .footer--left{
+    }
 }
 /* 740px <= TABLET < 1024px  */
 @media only screen and (min-width :46.25em) and (max-width: 63.9375em)
 {
-
-}
-
-/*MOBILE AND TABLET*/
-@media only screen and (max-width:63.9375em)
-{
-
     .btn{
-        font-size: 2rem;
-        width: 100%;
+        font-size: 1.6rem;
         text-align: center;
-        padding: 15px;
+        padding: 15px  ;
     }
     header{
         padding-top: 90%;
@@ -66,6 +100,14 @@
     .des__city,.des__area,.des__cul--dcr,.des__cul--func--name{
         font-size: 2.6rem;
     }
+    
+}
+
+/*MOBILE AND TABLET*/
+@media only screen and (max-width:63.9375em)
+{
+
+    
 
 }
 
