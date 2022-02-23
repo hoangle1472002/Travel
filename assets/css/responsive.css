@@ -49,10 +49,15 @@
     }
     footer{
         height : 1000px;
+        background-position: top center;
+        margin-top : 200px;
     }
    
-    .footer--left{
+    .footer__sup--item{
+        padding : 8px;
     }
+  
+   
 }
 /* 740px <= TABLET < 1024px  */
 @media only screen and (min-width :46.25em) and (max-width: 63.9375em)
@@ -65,9 +70,9 @@
     header{
         padding-top: 90%;
     }
-    footer{
+    /* footer{
         padding-top: 110%;
-    }
+    } */
     .title__dcr {
         flex-direction: column;
     }
@@ -100,7 +105,14 @@
     .des__city,.des__area,.des__cul--dcr,.des__cul--func--name{
         font-size: 2.6rem;
     }
-    
+    footer{
+        padding-top : 200%;
+        width:80%;
+        margin : 0 auto;
+    }
+    .footer__sup--item{
+        padding : 6px;
+    }
 }
 
 /*MOBILE AND TABLET*/
